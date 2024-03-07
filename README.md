@@ -4,8 +4,7 @@ This project aims to analyze and mitigate hate speech in online platforms using 
 
 
 1. **Data Understanding**
-    - Dataset Link:
-    - Features:
+    -  Features:
         - File_id: Unique identifier for each file containing textual context.
         - User_id: Identifier for the user posting the context.
         - Subforum_id: Identifier for the subforum where the context was posted.
