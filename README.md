@@ -12,12 +12,12 @@ This project aims to analyze and mitigate hate speech in online platforms using 
         - Label: Label indicating whether the context contains hate speech or not.
 
 2. **Approach**
-    - Analyzing textual context using natural language processing (NLP) techniques.
-    - Utilizing word embeddings and topic modeling to identify key themes within hate speech.
+    - Analyzing textual context using natural language processing (NLP) techniques.(Tokens, stopwords,stemmer)
+    - Utilizing word embeddings and tfidfVectorizer to identify key themes within hate speech.
     - Investigating temporal patterns, profiling users, and evaluating model performance.
-      
+            
 3 Model Accuracy:
-Randomforest under sampler
+Random forest under sampler
               precision    recall  f1-score   support
 
         hate       0.34      0.69      0.46       234
